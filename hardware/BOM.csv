@@ -1,0 +1,23 @@
+Ref,Item,Qty,Notes
+MCU,Arduino Mega 2560,1,removable header-mounted controller
+BT,HC-06 Bluetooth module,1,serial phone/laptop monitoring
+WIFI,ESP-01 ESP8266 module,1,local Wi-Fi dashboard/telemetry
+LCD,16x2 LCD + I2C backpack,1,status/stage display
+RGB,TCS34725 color sensor breakout,1,colorimetric tube reading
+MOIST,Capacitive soil moisture sensor,1,dry sample chamber
+PH,Analog pH interface + probe,1,separate pre-watered pH tube
+TH,Digital temperature/humidity sensor,1,enclosure environment
+TRIG,IR break-beam sensor pair,1,automatic soil-arrival trigger
+HOME,Hall-effect digital sensor + magnet,1,tray home reference
+MOTOR,DC gearmotor,1,oscillating mixing tray
+DRV,L298N dual H-bridge module,1,one channel used for reversible mixer
+BAT,3S 11.1V LiPo/Li-ion pack,1,size to motor/runtime
+BUCK,11.1V to 5V buck converter >=3A,1,logic/sensor rail
+REG,3.3V regulator >=500mA,1,dedicated ESP-01 supply
+SW1,Master power switch,1,physical power isolation
+SW2,START pushbutton,1,manual test start
+SW3,Cartridge reset/ack button,1,deliberate new-cartridge reset
+LED,Status LED + resistor,1,status
+BZ,Active buzzer or buzzer + transistor,1,audible status
+PCB,Custom carrier PCB,1,Mega/module headers + connectors
+CARTRIDGE,Removable one-shot sample cartridge,1,dry+pH+2 reagent tubes
